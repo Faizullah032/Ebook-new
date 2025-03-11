@@ -1,13 +1,14 @@
 {
-  "name": "bs5-simple-starter",
+  "name": "Ebook",
   "version": "1.0.0",
   "description": "Simple workflow for working with and customizing Bootstrap 5",
   "main": "index.js",
-  "scripts": {
-    "sass:build": "sass --no-source-map scss:css",
-    "sass:watch": "sass --no-source-map --watch scss:css"
+"scripts": {
+    "sass": "sass --no-source-map scss/styles.scss css/styles.css",
+    "sass:watch": "sass --no-source-map scss/styles.scss css/styles.css --watch",
+    "build": "sass --no-source-map scss/styles.scss css/styles.css"
   },
-  "author": "Brad Traversy",
+  "author": "Faizullah Laghari",
   "license": "MIT",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
